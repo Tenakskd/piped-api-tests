@@ -11,8 +11,10 @@ from cache import cache
 max_api_wait_time = 3
 max_time = 10
 apis = [
-    r"https://invidious.catspeed.cc/", 
-    r"https://piped.kavin.rocks/"
+r"https://piped.kavin.rocks/",
+r"https://piped.video/",
+r"https://cf.piped.video/",
+r"https://az.piped.video/",
 ]
 url = requests.get(r'https://raw.githubusercontent.com/mochidukiyukimi/yuki-youtube-instance/main/instance.txt').text.rstrip()
 version = "1.0"
